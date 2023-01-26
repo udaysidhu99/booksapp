@@ -10,7 +10,7 @@ import SwiftUI
 struct CardView: View {
     var book:Book
     var body: some View {
-        GeometryReader{ geo in
+      
             ZStack{
                 Rectangle().foregroundColor(.white)
                     VStack(alignment: .leading){
@@ -24,9 +24,9 @@ struct CardView: View {
                             }
                         }
                         Text(book.author)
-                        Image("cover" + String(book.id)).resizable().padding(.top, 40.0).scaledToFit()
+                        Image("cover" + String(book.id)).resizable().padding(.top, 10).padding(.bottom,40).scaledToFit()
                     }
-                    .padding(.horizontal)
+                    .padding(.horizontal).padding(.top,40)
                    
                 
                 
@@ -35,7 +35,7 @@ struct CardView: View {
             }.cornerRadius(20)
                 .shadow (color: Color(.sRGB, red: 0, green: 0, blue: 0,opacity: 0.5), radius: 10, x: -5, y: 5)
             
-        }
+        
             
         }
     }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5F740C2298033E0001A4F70 /* BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F740C1298033E0001A4F70 /* BooksApp.swift */; };
-		A5F740C4298033E0001A4F70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F740C3298033E0001A4F70 /* ContentView.swift */; };
+		A5F740C4298033E0001A4F70 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F740C3298033E0001A4F70 /* BookList.swift */; };
 		A5F740C6298033E1001A4F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F740C5298033E1001A4F70 /* Assets.xcassets */; };
 		A5F740C9298033E1001A4F70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F740C8298033E1001A4F70 /* Preview Assets.xcassets */; };
 		A5F740D42980350C001A4F70 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F740D32980350C001A4F70 /* data.json */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		A5F740BE298033E0001A4F70 /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F740C1298033E0001A4F70 /* BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksApp.swift; sourceTree = "<group>"; };
-		A5F740C3298033E0001A4F70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5F740C3298033E0001A4F70 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 		A5F740C5298033E1001A4F70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F740C8298033E1001A4F70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5F740D32980350C001A4F70 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		A5F740CF298034A8001A4F70 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A5F740C3298033E0001A4F70 /* ContentView.swift */,
+				A5F740C3298033E0001A4F70 /* BookList.swift */,
 				A5F740DE29819022001A4F70 /* CardView.swift */,
 			);
 			path = View;
@@ -194,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F740DD29803A53001A4F70 /* BookViewModel.swift in Sources */,
-				A5F740C4298033E0001A4F70 /* ContentView.swift in Sources */,
+				A5F740C4298033E0001A4F70 /* BookList.swift in Sources */,
 				A5F740C2298033E0001A4F70 /* BooksApp.swift in Sources */,
 				A5F740D829803571001A4F70 /* book.swift in Sources */,
 				A5F740DF29819022001A4F70 /* CardView.swift in Sources */,
